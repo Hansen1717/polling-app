@@ -26,15 +26,19 @@ export default class Home extends Component {
                     </Navbar.Header>
                     <Navbar.Collapse>
                         <Nav pullRight>
+                            <NavItem eventKey={1} href="#">
+                                View Polls
+                            </NavItem>
+                            <NavItem className="divider" eventKey={1} href="#"></NavItem>
                             <NavItem eventKey={1} href="/">
-                                Login
+                                Logout
                             </NavItem>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
                 <Grid>
                     <Panel>
-                        <Panel.Heading className="text-center">Sign Up for Pollster!</Panel.Heading>
+                        <Panel.Heading className="text-center">Create a New Poll</Panel.Heading>
                         <Panel.Body>
                     <form>
                         <FieldGroup
