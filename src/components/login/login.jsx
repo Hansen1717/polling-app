@@ -47,7 +47,7 @@ export default class Home extends Component {
                             placeholder="Enter Password"
                         />
                         <div className="text-center">
-                            <Button type="submit">Login</Button>
+                            <Button className="btn-danger" id="login" type="submit" href="/viewAll">Login</Button>
                         </div>
                     </form>
                 </Grid>

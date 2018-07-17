@@ -1,0 +1,21 @@
+[{
+    "id": 1,
+    "title":"World Cup Winner",
+    "options":["France","Croatia"],
+    "question": "Who will win the World Cup"
+  },
+
+  {
+    "id": 2,
+    "title":"Packers Superbowl",
+    "options":["Yes","No"],
+    "question": "Will the Packers win the Superbowl next year"
+  },
+
+  {
+    "id": 3,
+    "title":"3 answers",
+    "options":["Yes","No","Maybe"],
+    "question": "Pick an answer"
+  }
+]

@@ -56,7 +56,7 @@ export default class Home extends Component {
                             placeholder="Enter Password"
                         />
                         <div className="text-center">
-                            <Button type="submit">Submit</Button>
+                            <Button className="btn-danger" id="signUp" type="submit" href="/">Submit</Button>
                         </div>
                     </form>
                     </Panel.Body>
