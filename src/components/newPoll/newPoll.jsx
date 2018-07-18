@@ -26,10 +26,9 @@ export default class Home extends Component {
                     </Navbar.Header>
                     <Navbar.Collapse>
                         <Nav pullRight>
-                            <NavItem eventKey={1} href="#">
+                            <NavItem eventKey={1} href="/viewAll">
                                 View Polls
                             </NavItem>
-                            <NavItem className="divider" eventKey={1} href="#"></NavItem>
                             <NavItem eventKey={1} href="/">
                                 Logout
                             </NavItem>
@@ -41,26 +40,20 @@ export default class Home extends Component {
                         <Panel.Heading className="text-center">Create a New Poll</Panel.Heading>
                         <Panel.Body>
                     <form>
-                        <FieldGroup
-                            id="formControlsUsername"
-                            type="username"
-                            label="Username"
-                            placeholder="Enter Username"
+                    <FieldGroup
+                            id="formControlsNewPoll"
+                            type="text"
+                            label="Name your poll."
+                            placeholder="Name of your Poll"
                         />
                         <FieldGroup
-                            id="formControlsPassword"
-                            type="password"
-                            label="Password"
-                            placeholder="Enter Password"
-                        />
-                        <FieldGroup
-                            id="formControlsPassword"
-                            type="password"
-                            label="Confirm Password"
-                            placeholder="Enter Password"
+                            id="formControlsNewPoll"
+                            type="text"
+                            label="Enter a new question to poll."
+                            placeholder="Yes or no question to be polled."
                         />
                         <div className="text-center">
-                            <Button type="submit">Submit</Button>
+                            <Button className="btn-danger" id="newPoll" type="submit" href="/viewAll">Submit</Button>
                         </div>
                     </form>
                     </Panel.Body>
